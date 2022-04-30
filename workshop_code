@@ -1,0 +1,634 @@
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~
+$ mkdir workspace
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~
+$ ls
+'3D Objects'/                                                                                   NetHood@
+ AppData/                                                                                       OneDrive/
+'Application Data'@                                                                             PrintHood@
+ Contacts/                                                                                      Recent@
+ Cookies@                                                                                      'Saved Games'/
+ Documents/                                                                                     Searches/
+ Downloads/                                                                                     SendTo@
+ Favorites/                                                                                    'Start Menu'@
+ Library/                                                                                       Templates@
+ Links/                                                                                         Videos/
+'Local Settings'@                                                                               Zotero/
+ Microsoft/                                                                                     anaconda3/
+ Music/                                                                                         ntuser.dat.LOG1
+'My Documents'@                                                                                 ntuser.dat.LOG2
+ NTUSER.DAT                                                                                     ntuser.ini
+ NTUSER.DAT{eebdc8a5-d2d2-11eb-a6bf-ec2e98e2a95a}.TM.blf                                        temp/
+ NTUSER.DAT{eebdc8a5-d2d2-11eb-a6bf-ec2e98e2a95a}.TMContainer00000000000000000001.regtrans-ms   workspace/
+ NTUSER.DAT{eebdc8a5-d2d2-11eb-a6bf-ec2e98e2a95a}.TMContainer00000000000000000002.regtrans-ms
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~
+$ zb workspace
+bash: zb: command not found
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~
+$ cd workspace
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace
+$ mkdir itp
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace
+$ ls
+itp/
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace
+$ cd itp
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp
+$ git init
+Initialized empty Git repository in C:/Users/zoeba/workspace/itp/.git/
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp (master)
+$ git status
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp (master)
+$ cd ..
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace
+$ git clone https://github.com/ZBaikie/itp_workshop.git
+Cloning into 'itp_workshop'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace
+$ cd itp_workshop
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ ls
+LICENSE  README.md
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git config --global user.name zoe baikie
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git config --global user.email zoebaikie@gmail.com
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git config user.name
+zoe
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git config user.email
+zoebaikie@gmail.com
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+core.usebuiltinfsmonitor=true
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=zoe
+user.email=zoebaikie@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/ZBaikie/itp_workshop.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ cd workspace
+bash: cd: workspace: No such file or directory
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ cd ..
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace
+$ pwd
+/c/Users/zoeba/workspace
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace
+$ cd ipt_workshop/
+bash: cd: ipt_workshop/: No such file or directory
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace
+$ cd itp_workshop/
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ pwd
+/c/Users/zoeba/workspace/itp_workshop
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ mkdir newdir
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ ls
+LICENSE  README.md  newdir/
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ rm -r newdir
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ ls
+LICENSE  README.md
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ ls
+LICENSE  README.md
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ history
+    1  mkdir workspace
+    2  ls
+    3  zb workspace
+    4  cd workspace
+    5  mkdir itp
+    6  ls
+    7  cd itp
+    8  git init
+    9  git status
+   10  cd ..
+   11  git clone https://github.com/ZBaikie/itp_workshop.git
+   12  cd itp_workshop
+   13  ls
+   14  git config --global user.name zoe baikie
+   15  git config --global user.email zoebaikie@gmail.com
+   16  git config user.name
+   17  git config user.email
+   18  git config --list
+   19  cd workspace
+   20  cd ..
+   21  pwd
+   22  cd ipt_workshop/
+   23  cd itp_workshop/
+   24  pwd
+   25  mkdir newdir
+   26  ls
+   27  rm -r newdir
+   28  ls
+   29  ls
+   30  history
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ cd ..
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace
+$ cd itp_workshop/
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$
+Display all 4933 possibilities? (y or n)
+!                                                                        dialer.exe
+./                                                                       dialserver.dll
+69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll                 diff.exe
+6bea57fb-8dfb-4177-9ae8-42e8b3529933_RuntimeDeviceInstall.dll            diff3.exe
+:                                                                        difxapi.dll
+ACPBackgroundManagerPolicy.dll                                           dimsjob.dll
+AJRouter.dll                                                             dimsroam.dll
+APHostClient.dll                                                         dinput.dll
+APHostRes.dll                                                            dinput8.dll
+APHostService.dll                                                        dir.exe
+APMon.dll                                                                dircolors.exe
+ARP.EXE                                                                  directmanipulation.dll
+AUDIOKSE.dll                                                             directml.dll
+AarSvc.dll                                                               directxdatabaseupdater.exe
+AboutSettingsHandlers.dll                                                dirmngr-client.exe
+AboveLockAppHost.dll                                                     dirmngr.exe
+AcGenral.dll                                                             dirname.exe
+AcLayers.dll                                                             dirs
+AcSpecfc.dll                                                             discan.dll
+AcWinRT.dll                                                              diskpart.exe
+AcXtrnal.dll                                                             diskperf.exe
+AccountsRt.dll                                                           diskraid.exe
+ActionCenter.dll                                                         disown
+ActionCenterCPL.dll                                                      dispdiag.exe
+ActionQueue.dll                                                          dispex.dll
+ActivationClient.dll                                                     djctq.rs
+ActivationManager.dll                                                    djoin.exe
+ActiveSyncCsp.dll                                                        dllhost.exe
+ActiveSyncProvider.dll                                                   dllhst3g.exe
+AdaptiveCards.dll                                                        dlnashext.dll
+AddressParser.dll                                                        dmcertinst.exe
+AdvancedEmojiDS.dll                                                      dmcfghost.exe
+Analog.Shell.Broker.dll                                                  dmcfgutils.dll
+AnalogCommonProxyStub.dll                                                dmclient.exe
+ApiSetHost.AppExecutionAlias.dll                                         dmcmnutils.dll
+AppContracts.dll                                                         dmcommandlineutils.dll
+AppExtension.dll                                                         dmcsps.dll
+AppHostRegistrationVerifier.exe                                          dmdlgs.dll
+AppInstallerPrompt.Desktop.dll                                           dmdskmgr.dll
+AppListBackupLauncher.dll                                                dmdskres.dll
+AppLockerCSP.dll                                                         dmdskres2.dll
+AppMon.dll                                                               dmenrollengine.dll
+AppReadiness.dll                                                         dmenterprisediagnostics.dll
+AppResolver.dll                                                          dmintf.dll
+AppXApplicabilityBlob.dll                                                dmiso8601utils.dll
+AppXDeploymentClient.dll                                                 dmloader.dll
+AppXDeploymentExtensions.desktop.dll                                     dmocx.dll
+AppXDeploymentExtensions.onecore.dll                                     dmoleaututils.dll
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ n
+bash: n: command not found
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git help -a
+See 'git help <command>' to read about a specific subcommand
+
+Main Porcelain Commands
+   add                  Add file contents to the index
+   am                   Apply a series of patches from a mailbox
+   archive              Create an archive of files from a named tree
+   bisect               Use binary search to find the commit that introduced a bug
+   branch               List, create, or delete branches
+   bundle               Move objects and refs by archive
+   checkout             Switch branches or restore working tree files
+   cherry-pick          Apply the changes introduced by some existing commits
+   citool               Graphical alternative to git-commit
+   clean                Remove untracked files from the working tree
+   clone                Clone a repository into a new directory
+   commit               Record changes to the repository
+   describe             Give an object a human readable name based on an available ref
+   diff                 Show changes between commits, commit and working tree, etc
+   fetch                Download objects and refs from another repository
+   format-patch         Prepare patches for e-mail submission
+   gc                   Cleanup unnecessary files and optimize the local repository
+   gitk                 The Git repository browser
+   grep                 Print lines matching a pattern
+   gui                  A portable graphical interface to Git
+   init                 Create an empty Git repository or reinitialize an existing one
+   log                  Show commit logs
+   maintenance          Run tasks to optimize Git repository data
+   merge                Join two or more development histories together
+   mv                   Move or rename a file, a directory, or a symlink
+   notes                Add or inspect object notes
+   pull                 Fetch from and integrate with another repository or a local branch
+   push                 Update remote refs along with associated objects
+   range-diff           Compare two commit ranges (e.g. two versions of a branch)
+   rebase               Reapply commits on top of another base tip
+   reset                Reset current HEAD to the specified state
+   restore              Restore working tree files
+   revert               Revert some existing commits
+   rm                   Remove files from the working tree and from the index
+   shortlog             Summarize 'git log' output
+   show                 Show various types of objects
+   sparse-checkout      Reduce your working tree to a subset of tracked files
+   stash                Stash the changes in a dirty working directory away
+   status               Show the working tree status
+   submodule            Initialize, update or inspect submodules
+   switch               Switch branches
+   tag                  Create, list, delete or verify a tag object signed with GPG
+   worktree             Manage multiple working trees
+
+Ancillary Commands / Manipulators
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git help glossary
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ cd ..
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace
+$ ls
+itp/  itp_workshop/
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace
+$ cd itp
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp (master)
+$ git status
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp (master)
+$ mkdir src
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp (master)
+$ ls
+src/
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp (master)
+$ git status
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp (master)
+$ cd src
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp/src (master)
+$ echo content.txt
+content.txt
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp/src (master)
+$ ls
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp/src (master)
+$ echo -n contents > example.txt
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp/src (master)
+$ ls
+example.txt
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp/src (master)
+$ git status
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp/src (master)
+$ git add .
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp/src (master)
+$ git status
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   example.txt
+
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp/src (master)
+$ git commit -m "This is my first commit"
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+[master (root-commit) 6e53196] This is my first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 src/example.txt
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp/src (master)
+$ git status
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+On branch master
+nothing to commit, working tree clean
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp/src (master)
+$ git add --dry-run
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp/src (master)
+$ git log
+commit 6e5319656a2e821fc53dce63d754c6b70eb8acd5 (HEAD -> master)
+Author: zoe <zoebaikie@gmail.com>
+Date:   Sat Apr 30 11:23:40 2022 +1200
+
+    This is my first commit
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp/src (master)
+$ git log --stat
+commit 6e5319656a2e821fc53dce63d754c6b70eb8acd5 (HEAD -> master)
+Author: zoe <zoebaikie@gmail.com>
+Date:   Sat Apr 30 11:23:40 2022 +1200
+
+    This is my first commit
+
+ src/example.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp/src (master)
+$ git ls-files
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+example.txt
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp/src (master)
+$ git diff
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp/src (master)
+$ git diff --staged
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp/src (master)
+$ cd ..
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp (master)
+$ cd ..
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace
+$ cd itp_workshop/
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git status
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git ls
+git: 'ls' is not a git command. See 'git --help'.
+
+The most similar command is
+        lfs
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ ls
+LICENSE  README.md
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git pull
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.35 KiB | 115.00 KiB/s, done.
+From https://github.com/ZBaikie/itp_workshop
+   d28f695..69b0ae3  main       -> origin/main
+Updating d28f695..69b0ae3
+Fast-forward
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git status
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ code .
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git status
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git add .
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git status
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git commit -m "Changes done to the readme file and new folder vscode added"
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+[main 4f04487] Changes done to the readme file and new folder vscode added
+ 1 file changed, 2 insertions(+)
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git status
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git push origin main
+fatal: helper error (-1): User cancelled dialog.
+
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/ZBaikie/itp_workshop.git/'
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/ZBaikie/itp_workshop.git'
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 369 bytes | 369.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/zoebaikie/itp_workshop.git
+To https://github.com/ZBaikie/itp_workshop.git
+   69b0ae3..4f04487  main -> main
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git push origin main
+Everything up-to-date
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git log
+commit 4f04487cc15adacc6bb780bcbaccd32a7515c86c (HEAD -> main, origin/main, origin/HEAD)
+Author: zoe <zoebaikie@gmail.com>
+Date:   Sat Apr 30 11:49:06 2022 +1200
+
+    Changes done to the readme file and new folder vscode added
+
+commit 69b0ae35e30767ededd2239f469ae73c2af31663
+Author: Zoe Baikie <80991927+zoebaikie@users.noreply.github.com>
+Date:   Sat Apr 30 10:47:04 2022 +1200
+
+    Update README.md
+
+commit 5591fa32498d990dccaeb993ee0e829d1f2da4a5
+Author: Zoe Baikie <80991927+zoebaikie@users.noreply.github.com>
+Date:   Sat Apr 30 10:46:45 2022 +1200
+
+    Update README.md
+
+commit d28f695439a19fe68a0b27208ba8d6fd53b96e13
+Author: Zoe Baikie <80991927+ZBaikie@users.noreply.github.com>
+Date:   Sat Apr 30 10:09:57 2022 +1200
+
+    Initial commit
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git diff
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (main)
+$ git checkout -bdev
+hint: core.useBuiltinFSMonitor will be deprecated soon; use core.fsmonitor instead
+hint: Disable this message with "git config advice.useCoreFSMonitorConfig false"
+Switched to a new branch 'dev'
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (dev)
+$ ls
+LICENSE  README.md
+
+zoeba@LAPTOP-19RM4C9C MINGW64 ~/workspace/itp_workshop (dev)
+$
